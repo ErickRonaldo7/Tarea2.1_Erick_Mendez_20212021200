@@ -1,0 +1,29 @@
+[
+{
+    "id": 1,
+    "nombre": "Laptop",
+    "precio": 1200.00,
+    "descripcion": "Laptop de alto rendimiento con 16GB de RAM y 512GB SSD.",
+    "disponible": true,
+    "fecha_ingreso": "2023-10-01T10:00:00Z"
+   
+},
+
+{
+    "id": 2,
+    "nombre": "Smartphone",
+    "precio": 800.00,
+    "descripcion": "Smartphone con pantalla de 6.5 pulgadas y 128GB de almacenamiento.",
+    "disponible": true,
+    "fecha_ingreso": "2023-10-02T10:00:00Z"
+},
+
+{
+    "id": 3,
+    "nombre": "Tablet",
+    "precio": 600.00,
+    "descripcion": "Tablet ligera y portátil con 64GB de almacenamiento.",
+    "disponible": false,
+    "fecha_ingreso": "2023-10-03T10:00:00Z"
+}
+]

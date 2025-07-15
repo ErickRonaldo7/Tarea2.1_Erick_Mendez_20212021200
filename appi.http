@@ -1,0 +1,75 @@
+###Obtener todos los productos
+GET http://localhost:3012/products
+
+###obtener productos por id
+GET http://localhost:3012/products/2 
+
+
+###obtener productos disponibles
+GET http://localhost:3012/products/disponibles
+
+
+###agregar un nuevo producto
+POST http://localhost:3012/products
+Content-Type: application/json
+
+{
+  "id":9,
+  "nombre": "TV 55 samsung 4k",
+  "precio": 20000,
+  "descripcion": "Televisor Samsung 4K de 55 pulgadas",
+  "disponible": true,
+  "fecha_ingreso": "2021-10-15",
+  "categoriaId": 2
+
+}
+
+###actualizar un producto
+PUT http://localhost:3012/products/actualizar/8
+Content-Type: application/json
+
+{
+
+  "nombre":"Iphone 16 pro max xd",
+  "precio":20000,
+  "descripcion":"Nuevo Iphone 16 pro max",
+  "disponible":true,
+  "fecha_ingreso":"2025-07-13",
+  "categoriaId":1
+}
+
+###eliminar un producto por id
+DELETE http://localhost:3012/products/eliminar/9
+
+
+
+###ENDPOINTS POR CATEGORIA
+
+###Lista de todas las categorias
+
+GET http://localhost:3012/categorias
+
+###Obtener categoria por id
+GET http://localhost:3012/categorias/4
+
+###Crear una nueva categoria
+POST http://localhost:3012/categorias
+Content-Type: application/json
+
+{
+  "id":5,
+  "nombre": "Carpinteria y muebles"
+}
+
+###Editar una categoria
+PUT http://localhost:3012/categorias/5
+Content-Type: application/json
+
+{
+  "nombre": "Carpinteria y muebles ..."
+}
+
+###Eliminar una categoria por id
+DELETE http://localhost:3012/categorias/2
+
+
